@@ -39,3 +39,4 @@ config/
 service-mongo.yaml
 test-upload.sh
 .envdbmongo
+mochawesome-report/

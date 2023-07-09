@@ -1,7 +1,7 @@
 CRM storage 1.0.0 alpha version
 ======================
 
-Control resource monitor es un servicio que permite funcionar como un suscriptor de eventos de storage api y authuser.
+Control resource monitor es un servicio que permite funcionar como un suscriptor de queue con broker parar storage y authuser API.
 
 # Summary
 
