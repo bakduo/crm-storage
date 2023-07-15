@@ -1,7 +1,7 @@
 import { app } from '../src/app';
 import {appconfig, loggerApp} from '../src/configure/configure-app';
 
-const puerto = appconfig.port;
+const puerto = appconfig.port || 8081;
 
 const server = app.listen(puerto, async () => {
     loggerApp.debug(`servidor escuchando en http://localhost:${puerto}`);
